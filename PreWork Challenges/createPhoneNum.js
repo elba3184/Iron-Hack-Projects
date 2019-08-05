@@ -32,4 +32,4 @@ function createPhoneNumber(numbers){
 }
 
 let arrPhoneNum = [7, 8, 6, 2, 3, 8, 4, 3, 0, 0];
-console.log(createPhoneNumber(arrPhoneNum)); //calls createPhoneNumber function that takes in array
+console.log(createPhoneNumber(arrPhoneNum)); //calls createPhoneNumber function that takes in an array of ints
