@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.navbar{
+  color:rgba(255,255,255,0.8);
+  background-color:#C12127;
+  padding:11px 20px;
+}
+
+.nav-div{
+  float:left;
+}
+
+.nav-div a{
+  padding-right: 20px;
+}
+
+.nav-list{
+  float:right;
+  margin:0 auto;
+}
+
+.nav-list li{
+  list-style-type:none;
+  text-align:center;
+  display: inline;
+  padding-left: 15px;
+}
+
+.navbar a{
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  color: rgba(255,255,255,0.8);
+  font-size: 0.9em;
+}
+
+.clearfix{
+  clear: both;
+}
+
+.headerNpm{
+  color:white;
+  background-color: #1D4E69;
+  background-image: url(images/city-scape.svg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 445px;
+}
+
+.headerBar{
+  padding: 20px;
+}
+
+.headerBarOne{
+  float: left;
+  width:10%;
+}
+
+.headerBarTwo{
+  float: left;
+  width: 70%;
+  margin:0 1% 0 1%;
+  border: 1px solid rgba(255,255,255,0.2);
+  padding: 5px 5px 5px 15px;
+  height: 38px;
+  font-size:1em;
+  background-color: rgb(31, 82, 111);
+  letter-spacing: 0.5px;
+}
+
+.search{
+  border: none;
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 0.8);
+  height: 30px;
+  width: 30px;
+  background-color: transparent;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+  float:left;
+}
+
+.search img{
+  width: 16px; 
+}
+
+.ulHeaderBar{
+  float:left;
+  margin:0 auto;
+  width:13%;
+  padding: 10px 0;
+  text-align: right;
+}
+
+.ulHeaderBar li{
+  list-style-type:none;
+  text-align:center;
+  display: inline;
+}
+
+.ulHeaderBar a, span{
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  color: rgba(255,255,255,0.8);
+  font-size: 1em;
+}
+
+.bearLogo{
+  float: left;
+  height: 40px;
+  padding: 2px 0;
+  width: 3%;
+}
+
+.npmLogo{
+  height: 49px;
+}
+
+.headerSign{
+  text-align: left;
+  margin: 40px 150px;
+}
+
+.divHeaderSign{
+  width: 550px;
+}
+
+.divHeaderSign p{
+  font-size: 18px;
+  font-weight: 400;
+  padding: 20px 0;
+  margin: 10px 0;
+}
+
+.divHeaderSign a{
+  background-color: rgb(240, 146, 51);
+  text-decoration: none;
+  font-weight: 400;
+  border-radius: 20px;
+  padding: 7px 26px 8px 26px;
+  font-size: 18px;
+  color: white;
+}
+
+.btnHeader{
+  background-color: rgb(240, 146, 51);
+  text-decoration: none;
+  color: white;
+  padding: 7px 26px;
+  border: 1px;
+  border-radius: 20px;
+  font-size: 18px;
+  display: block;
+  width: 136px;
+  text-align: left;
+}
+
+.container{
+  width:1160px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.sectionSignUp{
+  background-color:#273547;
+  font:white;
+  padding: 120px 10px;
+  color:white;
+}
+
+.imgSignUp{
+  width: 50%;
+  margin-left: 4%;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: block;
+  box-sizing: border-box;
+}
+
+.collaborationLogo{
+  height: 333px;
+  text-align: right;
+}
+
+.textSignUp{
+  width: 40%;
+  margin-left: 4%;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: block;
+}
+
+.textSignUp h1{
+  font-weight: 300;
+  padding: .107em 0;
+  margin-bottom: 10px;
+  font-size: 34px;
+  text-align: left;
+  line-height: normal;
+}
+
+.textSignUp ul{
+  padding-left: 23px;
+  padding-bottom: 20px;
+  text-align: left;
+  line-height: 40px;
+}
+
+.btnSign{
+  background-color: rgb(203, 56, 55);
+  text-decoration: none;
+  color: white;
+  padding: 7px 26px;
+  border: 1px;
+  border-radius: 20px;
+  font-size: 18px;
+  display: block;
+  width: 136px;
+  text-align: left;
+}
+
+.pSign{
+  display: block;
+  text-align: left;
+  padding-top: 10px;
+}
+
+.pSign a{
+  text-decoration: none;
+  color: white;
+}
+
+.sectionInstall{
+  background-color: #206F9C;
+  background-image: url(images/forklift.svg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 380px;
+  color:white;
+  padding: 60px 6%;
+}
+
+.divInstall{
+  text-align: left;
+  margin: 60px 0 20px 5%;
+  width: 345px;
+}
+
+.divInstall h1{
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 20px 0 10px 0;
+  padding: 5px 0;
+}
+
+.divInstall p{
+  margin-bottom: 10px;
+  padding: 10px 0;
+}
+
+.divInstall a{
+  text-decoration: none;
+  background-color: #34495e;
+  border-radius: 20px;
+  padding: 7px 26px 8px 26px;
+  font-size: 18px;
+  font-weight: 400;
+  border: 1px;
+  color: white;
+}
+
+.sectionOptions{
+  height: 510px;
+  color:#6d7986;
+  text-align: center;
+}
+
+.divOptions{
+  padding: 40px 10px;
+  margin:0 5%;
+}
+
+.divOptions h2{
+  color: #373d48;
+  margin: 20px 0;
+  padding: 3px 0;
+  font-weight: 300;
+  font-size: 36px;
+}
+
+.npmOptions{
+  height: 306px;
+  margin: 25px 5%;
+}
+
+.optionsBlock div{
+  width: 250px;
+  padding: 20px;
+}
+
+.optionsBlock h3{
+  color:#373d48;
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.optionsBlock a{
+  text-decoration: none;
+  color: #cb3837;
+}
+
+.block{
+  float: left;
+}
+
+.blocks{
+  width: 30%;
+}
+
+.mountain{
+  margin: 0 8%;
+}
+
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family: "Open Sans";
+}
+
+h1{
+	font-family: "Open Sans";
+	font-size: 48px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 24px;
+  margin: 20px 0 10px 0;
+  padding: .107em 0;
+}
