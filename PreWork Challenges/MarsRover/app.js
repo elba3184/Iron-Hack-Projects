@@ -72,16 +72,16 @@ function turnRight(rover){
 function moveForward(rover){
   switch(rover.direction) {
     case 'N':
-      rover.position[0]++
+      rover.position[0]++;
       break;
     case 'E':
-      rover.position[1]++
+      rover.position[1]++;
       break;
     case 'S':
-      rover.position[0]--
+      rover.position[0]--;
       break;
     case 'W':
-      rover.position[1]--
+      rover.position[1]--;
       break;
   }
     console.log("Rover Direction: [" + rover.position[0] + ", " + rover.position[1] + "]");
