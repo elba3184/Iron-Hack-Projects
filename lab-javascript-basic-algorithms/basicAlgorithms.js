@@ -41,9 +41,9 @@ function alphabeticalOrder(driver, navigator) {
     let lowerCaseDriv = driver.toLowerCase();
     let lowerCaseNav = navigator.toLowerCase();
     
-    if (lowerCaseDriv > lowerCaseNav) {
+    if (lowerCaseDriv < lowerCaseNav) {
         console.log("The driver's name goes first.");
-    } else if (lowerCaseDriv < lowerCaseNav) {
+    } else if (lowerCaseDriv > lowerCaseNav) {
         console.log("Yo, the navigator goes first definitely.");
     } else if (lowerCaseDriv == lowerCaseNav) {
         console.log("What?! You both got the same name?");
