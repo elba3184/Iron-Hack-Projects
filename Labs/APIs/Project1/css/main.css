@@ -1,0 +1,65 @@
+.spacex-logo {
+    display: flex;
+    width: 210px;
+    height: 60px;
+    /* justify-content: flex-start; */
+    border: 0px;
+    /* justify-content: left; */
+}
+
+.nav-bar {
+    background-color:#222;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+     -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+
+.nav-bar li {
+    display: flex;
+    align-content: right;
+    display: inline;
+}
+
+.carosuel-inner {
+   position: relative;
+   width: 100%;
+   size: 100%;
+}
+
+.footer {
+    background-color:#222;
+    color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-content: flex-end;
+    justify-content: right;
+    font-size: 14pt;
+}
+
+/* // Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+/* @media (min-width: 576px) and (max-width: 767.98px) { } */
+
+/* // Medium devices (tablets, 768px and up) */
+/* @media (min-width: 768px) and (max-width: 991.98px) { } */
+
+/* // Large devices (desktops, 992px and up) */
+/* @media (min-width: 992px) and (max-width: 1199.98px) {  } */
+
+/* // Extra large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) {} */ */
+
+body {
+    font-family: 'Brandon Grotesque','brandon-grotesque',Helvetica,sans-serif;
+}
+
