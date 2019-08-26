@@ -1,12 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+<!--Contains Title, Head, and CSS/API Links-->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="shortcut icon" href="https://spacexdata.com/favicon.ico">
+    <title>SpaceX</title>
 </head>
+
 <body>
-    Hello World!
+
+    <!--Navigation Bar-->
+    <header>
+        <ul class="nav-bar">
+            <a href="index.html"><img src="../images/spacex-logo.png" alt="spacex-logo" class="spacex-logo"></a>
+            <li><a href="index.html">Home | </a></li>
+            <li><a href="about.html">About | </a></li>
+            <li><a href="https://spacexmissionwatch.com/" target="_blank">Upcoming Launches | </a></li>
+            <li><a href="index.html">Robotics</a></li>
+        </ul>
+    </header>
+
+    <div class="preloader rocket-preloader">
+            <div class="rocket"></div>
+          </div>
+          
+    <div class="content">
+        <h1>ADVANCING THE FUTURE</h1>
+        <p> As one of the world’s fastest growing providers of launch services, SpaceX has secured over
+            100 missions to its manifest, representing over $12 billion on contract. These include commercial
+            satellite launches as well as US government missions. SpaceX’s Dragon spacecraft is flying numerous
+            cargo resupply missions to the space station under a series of Commercial Resupply Services contracts.
+            Dragon was designed from the outset to carry humans to space and will soon fly astronauts under NASA’s
+            Commercial Crew Program. Building on the achievements of Falcon 9 and Falcon Heavy, SpaceX is working
+            on a next generation of fully reusable launch vehicles that will be the most powerful ever built,
+            capable of carrying humans to Mars and other destinations in the solar system.</p>
+    </div>
+    <br>
+
+
+    <link href='https://fonts.googleapis.com/css?family=Nobile:700,400' rel='stylesheet' type='text/css'>
+
+    <link href='https://fonts.googleapis.com/css?family=Gafata|Open+Sans:300' rel='stylesheet' type='text/css'>
+
+    <div class="video-container">
+        <video autoplay loop muted>
+            <source src="https://www.spacex.com/sites/spacex/files/spinningdragon_web4x3_text_callouts_v04_fix_1.mp4"
+                type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="overlay-desc">
+            <h1>Space Exploration</h1>
+        </div>
+    </div>
+
+    <div class="overlay">
+        <p>Content above your video</p>
+        <form>
+            <p>Content Below Your Video</p>
+            <label for="input">Form Input Label</label>
+            <input id="input" name="input" value="" />
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    </div>
+
+    <div class="footer">
+        SpaceX
+    </div>
+
+
+    </div>
 </body>
+
+<script src="../javascript/api.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
 </html>

@@ -2,21 +2,13 @@
     display: flex;
     width: 210px;
     height: 60px;
-    /* justify-content: flex-start; */
     border: 0px;
-    /* justify-content: left; */
 }
 
 .nav-bar {
+    text-decoration: none;
     background-color:#222;
     color: white;
-    padding-left: 10px;
-    padding-right: 10px;
-     -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    box-sizing: border-box;
-    word-wrap: break-word;
 }
 
 .nav-bar li {
@@ -26,9 +18,29 @@
 }
 
 .carosuel-inner {
-   position: relative;
-   width: 100%;
-   size: 100%;
+    position: relative;
+    width: 100%;
+    size: 100%;
+}
+
+.carosuel-caption p{
+    font-size: 30pt;
+}
+
+.carousel-caption h3 {
+    font-size: 50pt;
+}
+
+#myCarousel .item {
+    size: 50px;
+}
+
+.dragon-video {
+    top: 50%;
+    left: 50%;
+    width: 101%;
+    max-width: 2000px;
+    height: auto;
 }
 
 .footer {
@@ -43,23 +55,28 @@
     font-size: 14pt;
 }
 
-/* // Extra small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) { 
-}
-
-/* // Small devices (landscape phones, 576px and up) */
-/* @media (min-width: 576px) and (max-width: 767.98px) { } */
-
-/* // Medium devices (tablets, 768px and up) */
-/* @media (min-width: 768px) and (max-width: 991.98px) { } */
-
-/* // Large devices (desktops, 992px and up) */
-/* @media (min-width: 992px) and (max-width: 1199.98px) {  } */
-
-/* // Extra large devices (large desktops, 1200px and up) */
-/* @media (min-width: 1200px) {} */ */
-
 body {
     font-family: 'Brandon Grotesque','brandon-grotesque',Helvetica,sans-serif;
 }
 
+.video-container {
+    position: relative;
+}
+
+video {
+    height: auto;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.overlay-desc {
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+}
+
+h1 { 
+    color: white;
+    font-family: 'Brandon Grotesque','brandon-grotesque',Helvetica,sans-serif;
+    font-size: 9vw;
+    text-align: center;
+}
