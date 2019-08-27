@@ -52,9 +52,9 @@ anime.timeline({ loop: true })
         targets: '.ml4 .letters-4',
         opacity: 0,
         scale: ml4.scaleOut,
-        duration: 1900,
+        duration: 1500,
         easing: "easeInExpo",
-        delay: 1400
+        delay: 1000
     }).add({
         targets: '.ml4 .letters-5',
         opacity: ml4.opacityIn,
@@ -70,13 +70,34 @@ anime.timeline({ loop: true })
     }).add({
         targets: '.ml4',
         opacity: 0,
-        duration: 2000,
+        duration: 20000,
         delay: 2000
     });
 
+document.getElementsByClassName('page-container')[0].className = 'page-container shake'
 setTimeout(() => {
     document.getElementById('go').remove()
-}, 7500)
+    window.clearInterval(inter)
+    
+    setInterval(function(){
+        document.getElementsByClassName('shake')[0].style.webkitAnimationDuration = `${speed}s`
+        speed+=1;
+    },3000)
+}, 7000)
+
+
+
+let speed = 5;
+let inter = setInterval(function(){
+    if(speed < 0) { speed = 1} 
+    document.getElementsByClassName('shake')[0].style.webkitAnimationDuration = `${speed}s`
+    speed -=1 ;
+    if (speed == 0) {
+        break;
+    }
+},5000)
+
+
 
 function AlertIt() {
     var answer = confirm("Elon Musk wants to know your location!")
@@ -90,6 +111,9 @@ $(document).ready(() => {
     document.getElementById('myCarousel').onclick = function () {
         alert("Under Construction");
     }
+    $(document).ready(function() {
+        jQuery.fn.carousel.Constructor.TRANSITION_DURATION = 2000; // 2 seconds
+      });
     // document.getElementById('go').onwaiting = function () {
     //     countdown();
     // }

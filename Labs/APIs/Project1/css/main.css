@@ -80,6 +80,8 @@ nav a:visited {
     color: white;
 }
 
+
+
 .carosuel-inner {
     position: relative;
     width: 100%;
@@ -91,12 +93,20 @@ nav a:visited {
 }
 
 .carousel-caption h3 {
+    align-items: center;
     font-size: 50pt;
 }
 
-#myCarousel .item {
-    size: 50px;
-}
+/* .carousel-inner > .item {
+    position: relative;
+    display: none;
+    -webkit-transition: 300s ease-in-out left;
+    -moz-transition: 300s ease-in-out left;
+    -o-transition: 300s ease-in-out left;
+    transition: 300s ease-in-out left;
+} */
+
+
 
 .ml4 {
     position: relative;
@@ -122,20 +132,24 @@ nav a:visited {
     opacity: 0; 
   }
 
+  .page-container {
+    background: #222;
+  }
 .footer {
     background-color:#222;
+    position: relative;
     color: white;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-content: flex-end;
-    justify-content: right;
+    height: 100px;
+    margin-top: -100px;
+    clear: both;
     font-size: 14pt;
 }
 
 body {
     font-family: 'Brandon Grotesque','brandon-grotesque',Helvetica,sans-serif;
+    background-color: #222;
+   
 }
 
 h1 { 
@@ -146,21 +160,16 @@ h1 {
 }
 
 
-.page-container:hover {
+/* .page-container:hover {
     animation: shake 0.5s;
     animation-iteration-count: infinite;
-  }
+  } */
 
   .page-container.shake {
     animation: shake 0.5s;
     animation-iteration-count: infinite;   
   }
 
-  .m14.shake {
-        animation: shake 0.5s;
-        animation-iteration-count: infinite;
-    }
- 
   @keyframes shake {
     0% { transform: translate(1px, 1px) rotate(0deg); }
     10% { transform: translate(-1px, -2px) rotate(-1deg); }

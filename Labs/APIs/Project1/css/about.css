@@ -2,18 +2,7 @@
 
 
 .video-container {
-  margin: 0px;
-}
-
-.dragon-video {
-  top: 50%;
-  left: 50%;
-  width: 80%;
-  max-width: 500px;
-  height: auto;
-}
-
-.overlay-desc {
+  display: flex;
   color: white;
   font-size: 100pt;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -23,4 +12,14 @@
   top: 50vh;
   right: 0;
   opacity: 0; 
+  justify-content: flex-start;
+  margin: 0px;
+}
+
+.dragon-video {
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  max-width: 500px;
+  height: auto;
 }
