@@ -21,13 +21,17 @@
 
     <!--Navigation Bar-->
     <header>
-        <ul class="nav-bar">
+        <div class="nav-container">
             <a href="index.html"><img src="../images/spacex-logo.png" alt="spacex-logo" class="spacex-logo"></a>
-            <li><a href="index.html">Home | </a></li>
-            <li><a href="about.html">About | </a></li>
-            <li><a href="https://spacexmissionwatch.com/" target="_blank">Upcoming Launches | </a></li>
-            <li><a href="index.html">Robotics</a></li>
-        </ul>
+            <nav>
+                <ul class="nav-bar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="https://spacexmissionwatch.com/" target="_blank">Upcoming Launches</a></li>
+                    <li class="mars"><a href="about.html">Visit Mars?</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <div class="page-container">
@@ -36,14 +40,16 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
                 <div class="item active">
-                    <a href="index.html"><img src="../images/slide-1.jpg" alt="Home"
-                            style="width: 100%; Height: 40%"></a>
-                    <div class="carousel-caption">
-                        <h3>Home</h3>
-                        <p>What We do</p>
+                    <div class="item" data-duration="10000">
+                        <a href="index.html"><img src="../images/slide-1.jpg" alt="Home"
+                                style="width: 100%; Height: 40%"></a>
+                        <div class="carousel-caption">
+
+                            <h3>Home</h3>
+                            <p>What We do</p>
+                        </div>
                     </div>
                 </div>
-
                 <div class="item">
 
                     <a href="index.html"><img src="../images/slide-2.jpg" alt="About Us"
@@ -78,6 +84,16 @@
                         <p>Freshen up on some general astronomy knowledge</p>
                     </div>
                 </div>
+
+                <div class="item">
+                    <video autoplay loop>
+                        <iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/Tk338VXcb24?controls=0&amp;start=42" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
             </div>
 
             <!-- Left and right controls -->
@@ -104,6 +120,13 @@
             capable of carrying humans to Mars and other destinations in the solar system.</P>
     </div>
 
+    <h1 id="go" class="ml4">
+        <span class="letters letters-1">3</span>
+        <span class="letters letters-2">2</span>
+        <span class="letters letters-3">1</span>
+        <span class="letters letters-4">LIFT OFF!</span>
+    </h1>
+
     <div class="footer">
         SpaceX
     </div>
@@ -112,7 +135,10 @@
     </div>
 </body>
 
-<script src="../javascript/api.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<!-- <script src="../javascript/api.js"></script> -->
+<script src="../javascript/index.js"></script>
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
 </html>

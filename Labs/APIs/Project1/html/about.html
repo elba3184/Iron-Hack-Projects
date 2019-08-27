@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/about.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
@@ -18,21 +18,26 @@
 
 <body>
 
+
     <!--Navigation Bar-->
     <header>
-        <ul class="nav-bar">
+        <div class="nav-container">
             <a href="index.html"><img src="../images/spacex-logo.png" alt="spacex-logo" class="spacex-logo"></a>
-            <li><a href="index.html">Home | </a></li>
-            <li><a href="about.html">About | </a></li>
-            <li><a href="https://spacexmissionwatch.com/" target="_blank">Upcoming Launches | </a></li>
-            <li><a href="index.html">Robotics</a></li>
-        </ul>
+            <nav>
+                <ul class="nav-bar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="https://spacexmissionwatch.com/" target="_blank">Upcoming Launches</a></li>
+                    <li class="mars"><a href="about.html">Visit Mars?</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <div class="preloader rocket-preloader">
-            <div class="rocket"></div>
-          </div>
-          
+        <div class="rocket"></div>
+    </div>
+
     <div class="content">
         <h1>ADVANCING THE FUTURE</h1>
         <p> As one of the world’s fastest growing providers of launch services, SpaceX has secured over
@@ -45,7 +50,11 @@
             capable of carrying humans to Mars and other destinations in the solar system.</p>
     </div>
     <br>
-
+    <h1 class="ml4">
+        <span class="letters letters-1">READY</span>
+        <span class="letters letters-2">SET</span>
+        <span class="letters letters-3">LAUNCH!</span>
+    </h1>
 
     <link href='https://fonts.googleapis.com/css?family=Nobile:700,400' rel='stylesheet' type='text/css'>
 
@@ -83,5 +92,6 @@
 
 <script src="../javascript/api.js"></script>
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 
 </html>

@@ -1,20 +1,83 @@
+.nav-container {
+    width: 93%;
+    margin: 0 auto;
+}
+
+header  {
+    background-color:#222;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
 .spacex-logo {
-    display: flex;
-    width: 210px;
-    height: 60px;
-    border: 0px;
+    float: left;
+    margin: 0 px;
+    width: 240px;
+    height: 90px;
+    /* border: 0px; */
+    padding: 0;
 }
 
 .nav-bar {
-    text-decoration: none;
-    background-color:#222;
+    margin: 2px auto;
+    float: right;
+}
+
+.nav-bar ul {
     color: white;
+    font-style: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 .nav-bar li {
-    display: flex;
-    align-content: right;
-    display: inline;
+    color: white;
+    font-family: 'Noto Sans KR',sans-serif;
+    font-size: 16pt;
+    display: inline-block;
+    /* display: flex;
+    align-content: right; */
+    /* display: inline-block;
+    align-items: center; */
+    margin-left: 70px;
+    padding-top: 23px;
+    position: relative;
+}
+
+nav a {
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16pt;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: #005288;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background: white;
+    position: absolute;
+    top: 0;
+    width: 0%;
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+nav a:visited {
+    text-decoration: none;
+    color: white;
 }
 
 .carosuel-inner {
@@ -35,13 +98,29 @@
     size: 50px;
 }
 
-.dragon-video {
-    top: 50%;
-    left: 50%;
-    width: 101%;
-    max-width: 2000px;
-    height: auto;
-}
+.ml4 {
+    position: relative;
+    font-weight: 900;
+    font-size: 4.5em;
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index:999;
+    background: rgba(0,0,0,.2);
+
+  }
+  .ml4 .letters {
+    color: white;
+    font-size: 100pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 50vh;
+    right: 0;
+    opacity: 0; 
+  }
 
 .footer {
     background-color:#222;
@@ -57,21 +136,6 @@
 
 body {
     font-family: 'Brandon Grotesque','brandon-grotesque',Helvetica,sans-serif;
-}
-
-.video-container {
-    position: relative;
-}
-
-video {
-    height: auto;
-    vertical-align: middle;
-    width: 100%;
-}
-
-.overlay-desc {
-    position: absolute;
-    top: 0; right: 0; bottom: 0; left: 0;
 }
 
 h1 { 
