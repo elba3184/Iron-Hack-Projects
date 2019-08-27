@@ -1,25 +1,26 @@
 @import url("main.css");
 
+
+.video-container {
+  margin: 0px;
+}
+
 .dragon-video {
   top: 50%;
   left: 50%;
   width: 80%;
-  max-width: 1000px;
+  max-width: 500px;
   height: auto;
-}
-
-.video-container {
-  color: white;
-  position: relative;
-}
-
-video {
-  height: auto;
-  vertical-align: middle;
-  width: 100%;
 }
 
 .overlay-desc {
+  color: white;
+  font-size: 100pt;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   position: absolute;
-  top: 0; right: 0; bottom: 0; left: 0;
+  margin: auto;
+  left: 0;
+  top: 50vh;
+  right: 0;
+  opacity: 0; 
 }

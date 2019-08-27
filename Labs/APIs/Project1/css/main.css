@@ -37,7 +37,7 @@ header::after {
 .nav-bar li {
     color: white;
     font-family: 'Noto Sans KR',sans-serif;
-    font-size: 16pt;
+    font-size: 14pt;
     display: inline-block;
     /* display: flex;
     align-content: right; */
@@ -52,7 +52,7 @@ nav a {
     color:white;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 16pt;
+    font-size: 14pt;
 }
 
 nav a:hover {
@@ -155,6 +155,11 @@ h1 {
     animation: shake 0.5s;
     animation-iteration-count: infinite;   
   }
+
+  .m14.shake {
+        animation: shake 0.5s;
+        animation-iteration-count: infinite;
+    }
  
   @keyframes shake {
     0% { transform: translate(1px, 1px) rotate(0deg); }

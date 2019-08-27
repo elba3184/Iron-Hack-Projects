@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <!--Contains Title, Head, and CSS/API Links-->
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../css/about.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <link rel="shortcut icon" href="https://spacexdata.com/favicon.ico">
-    <title>SpaceX</title>
-</head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="../css/main.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">
+        <!-- <link rel="shortcut icon" href="https://www.spacex.com/sites/all/themes/spacex2012/favicon.ico"> -->
+        <link rel="shortcut icon" href="https://spacexdata.com/favicon.ico">
+        <title>SpaceX</title>
+    </head>
 
 <body>
 
@@ -28,7 +29,7 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="https://spacexmissionwatch.com/" target="_blank">Upcoming Launches</a></li>
-                    <li class="mars"><a href="about.html">Visit Mars?</a></li>
+                    <li><a href="javascript:AlertIt();">Visiting Mars?</a></li>
                 </ul>
             </nav>
         </div>
@@ -62,16 +63,44 @@
         </div>
     </div>
 
-    <div class="overlay">
-        <p>Content above your video</p>
-        <form>
-            <p>Content Below Your Video</p>
-            <label for="input">Form Input Label</label>
-            <input id="input" name="input" value="" />
-            <button type="submit">Submit</button>
-        </form>
+    <div class="customizeable-section entity entity-paragraphs-item paragraphs-item-customizeable-section color-inverse background-color-black paragraphs-item--template-body-text-two-column customizeable-section--has-youtube-background-video customizeable-section--has-youtube-background-video"
+        typeof="" about="">
+        <div class="customizeable-section__title-wrapper container">
+            <h2 class=" customizeable-section__title">Dragon</h2>
+        </div>
+
+        <div class="customizeable-section__content container">
+            <div class="customizeable-section__text-wrapper">
+
+                <div class="dragon-info">
+                    <p>Dragon is a free-flying spacecraft designed to deliver both cargo and people to orbiting
+                        destinations. It is the only spacecraft currently flying that is capable of returning
+                        significant amounts of cargo to Earth. Currently Dragon carries cargo to space, but it was
+                        designed from the beginning to carry humans. The first demonstration flight under NASA's
+                        Commercial Crew Program launched on March 2, 2019 at 2:49 a.m. ET. The Dragon spacecraft
+                        successfully docked with the space station ahead of schedule at 6:02 a.m. ET on March 3, 2019,
+                        becoming the first American spacecraft in history to autonomously dock with the International
+                        Space Station.</p>
+
+                    <p>OVERVIEW
+                        The Dragon spacecraft is capable of carrying up to 7 passengers to and from Earth orbit,
+                        and beyond. The pressurized section of the capsule is designed to carry both people and
+                        environmentally sensitive cargo. Towards the base of the capsule and contained within
+                        the nose cone are the Draco thrusters, which allow for orbital maneuvering.
+
+                        Dragon’s trunk not only carries unpressurized cargo but also supports the spacecraft
+                        during ascent. The trunk remains attached to Dragon until shortly before reentry
+                        into Earth’s atmosphere.</p>
+                </div>
+            </div>
+        </div>
     </div>
     </div>
+    </div>
+
+
+
+
 
     <div class="footer">
         SpaceX
@@ -81,7 +110,8 @@
     </div>
 </body>
 
-<script src="../javascript/api.js"></script>
+<!-- <script src="../javascript/api.js"></script> -->
+<script src="/javascript/index.js">S</script>
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
 </html>

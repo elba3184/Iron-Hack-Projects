@@ -1,5 +1,3 @@
-
-
 var ml4 = {};
 ml4.opacityIn = [0, 1];
 ml4.scaleIn = [0.2, 1];
@@ -7,7 +5,6 @@ ml4.scaleOut = 3;
 ml4.durationIn = 400;
 ml4.durationOut = 300;
 ml4.delay = 200;
-
 
 anime.timeline({ loop: true })
     .add({
@@ -81,17 +78,26 @@ setTimeout(() => {
     document.getElementById('go').remove()
 }, 7500)
 
+function AlertIt() {
+    var answer = confirm("Elon Musk wants to know your location!")
+    if (answer) {
+        window.open("https://www.google.com/maps?saddr=My+Location&daddr=SpaceX+Launch+and+Landing+Control+Center,+Spaceport+Way,+Cape+Canaveral,+FL", '_blank');
+    }
+}
 
 $(document).ready(() => {
+
     document.getElementById('myCarousel').onclick = function () {
         alert("Under Construction");
     }
-    document.getElementsByClassName('mars').onclick = function () {
-        alert("Elon Musk wants to know your location");
-    }
-    // document.getElement('page-container').className() = 'page-container shake' {
-
+    // document.getElementById('go').onwaiting = function () {
+    //     countdown();
     // }
+
+    // document.getElementsByClassName('mars').onclick = function () {
+    //     alert("Elon Musk wants to know your location");
+    // // }
+   
 
 })
 
