@@ -4,7 +4,7 @@
 * The time in HH:MM format. Round down to the nearest minute.
 */
 
-//Function takes in an anlge (number) and returns a string in the HH:MM format
+//Function takes in an angle (number) and returns a string in the HH:MM format
 var whatTimeIsIt = function(angle) {
 
     //When 1 min goes by => 360 degrees/60 mins = 6 degrees/min
