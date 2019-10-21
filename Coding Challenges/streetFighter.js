@@ -1,3 +1,4 @@
+
 function streetFighterSelection(fighters, position, moves){
     for (let i =0; i < fighters.length; i++) {
         for (let j =0; j < i; j++) {
@@ -21,7 +22,7 @@ function streetFighterSelection(fighters, position, moves){
 //         }
 //     }
 //   }
-
+// Testing commits
 }
 
 
