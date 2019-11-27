@@ -1,7 +1,8 @@
 function solution(str){
-    let currStr = [];
-    for(let i = 0; i < str.length; i++) {
-      
+   var currArr = string.split("");
+    for (let i = 0 ; i < currArr.length; i = i+2) {
+      let pairedArr = [];
+      pairedArr.push(currArr[i], currArr[i+1])
     }
   
   }
